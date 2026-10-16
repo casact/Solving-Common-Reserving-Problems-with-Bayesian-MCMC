@@ -4,7 +4,7 @@ This repository contains code and supporting materials developed by John Smith i
 Copyright and other ownership rights in the materials remain as specified in that agreement.
 
 Project Name and Description
-A group of programs were written to write a call paper, ìSolving Common Reserving Problems with Bayesian MCMC.î  That group of programs is included to allow one to access the code for the different models shown in the call paper. 
+A group of programs were written to write a call paper, ‚ÄúSolving Common Reserving Problems with Bayesian MCMC.‚Äù  That group of programs is included to allow one to access the code for the different models shown in the call paper. 
 The intent of the call paper is to give actuaries examples of how one can use currently available Bayesian MCMC open-source software (Stan and related programs) to solve reserve modeling problems and explain how this approach benefits the customers of the reserve analysis.
 The programs and files that are furnished are intended to:
 * Give those who read the call paper the opportunity to gain hands-on experience in creating the models that were summarized in the call paper.
@@ -16,7 +16,7 @@ This set of files (R scripts, Rmarkdown and EXCEL) was created to give actuaries
 Installation Instructions
 You will need to have Rstudio, R and the rtools installed as well as R the R packages that are listed in the Load_Packages.R script.
 Install R4.6.1
-Go to The Comprehensive R Archive Network (r-project.org) which is at https:// cran.r-project.org.  Download the precompiled version of R4.6.1 following the instructions furnished on the website and take the defaults. If you already have R installed, but itís an earlier version please update to R4.6.1 and make sure Rstudio is pointing towards R4.6.1since the version of rstan we will use runs under R4.6.1.
+Go to The Comprehensive R Archive Network (r-project.org) which is at https:// cran.r-project.org.  Download the precompiled version of R4.6.1 following the instructions furnished on the website and take the defaults. If you already have R installed, but it‚Äôs an earlier version please update to R4.6.1 and make sure Rstudio is pointing towards R4.6.1since the version of rstan we will use runs under R4.6.1.
 Install rtools45
 Go to RTools: Toolchains for building R and R packages from source on Windows (r-project.org) which is at https://cran.r-project.org/bin/windows/Rtools/. Install rtools45 since this version of rtools is compatible with R4.6.1.  Follow the default instructions. 
 Install Rstudio
@@ -48,7 +48,7 @@ If you are using the R scripts for the simulation routines used to build the dat
 * Call_Paper_Functions.R
 * Inflation_Loss_Cost_Trend_Call_Paper.R
 
- For the simulation scripts, you can outline a given set of code and use the ìrunî option shortcut to run the results. Please note that the R script code will generate data sets that will end up on your laptop in the same folder in which they are run.
+ For the simulation scripts, you can outline a given set of code and use the ‚Äúrun‚Äù option shortcut to run the results. Please note that the R script code will generate data sets that will end up on your laptop in the same folder in which they are run.
 If there are questions about what a given package or routine is doing, one should use the help options in Rstudio. There are some limited comments about the intended goal of a given section of code, but explaining how a package works or R coding in general is outside the scope of the support furnished. 
 
 File Manifest
@@ -74,13 +74,13 @@ The R scripts that generated the data sets used in the Rmarkdown files:
 * Data_Set_ Underwriting_Case_Experiment.R
 * Data_Set_Mixture_Case_Experiment.R
 
-As a side comment, the ì_9î in the titles came about from taking nine attempts to get a final working data set for the inflation case.
+As a side comment, the ‚Äú_9‚Äù in the titles came about from taking nine attempts to get a final working data set for the inflation case.
 System Requirements
 The version numbers required are noted in the installation instructions. 
 Licensing & Copyright
 The programs and files included are intended for educational usage only. The code used in the programs uses open source software and the same copyright limitations attached to that software applies to the examples furnished. 
 Contact Information
-Furnishing the code behind the call paper, ìSolving Common Reserving Problems with Bayesian MCMCî for educational purposes does not mean that I agree to support and update it as packages and future versions of R change what the packages can do. 
+Furnishing the code behind the call paper, ‚ÄúSolving Common Reserving Problems with Bayesian MCMC‚Äù for educational purposes does not mean that I agree to support and update it as packages and future versions of R change what the packages can do. 
 Michael Ray Larsen
 Email: mikeplcact@gmail.com
 
